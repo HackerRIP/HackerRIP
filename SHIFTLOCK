@@ -14,8 +14,8 @@ local States = {
     Lock2 = "rbxasset://SystemCursors/Cross"
 }
 local MaxLength = 900000
-local EnabledOffset = CFrame.new(1.7, 0, 0)
-local DisabledOffset = CFrame.new(-1.7, 0, 0)
+local EnabledOffset = CFrame.new(1.2, 0, 0)
+local DisabledOffset = CFrame.new(-1.2, 0, 0)
 local Active
  
 ShiftLockScreenGui.Name = "Shiftlock (CoreGui)"
@@ -24,7 +24,7 @@ ShiftLockScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ShiftLockScreenGui.ResetOnSpawn = false
  
 ShiftLockButton.Parent = ShiftLockScreenGui
-ShiftLockButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShiftLockButton.BackgroundColor3 = Color3.fromRGB(250, 250, 250)
 ShiftLockButton.BackgroundTransparency = 1.000
 ShiftLockButton.Position = UDim2.new(0.858712733, 0, 0.4985967, 0)
 ShiftLockButton.Size = UDim2.new(0.0636147112, 0, 0.0661305636, 0)
@@ -38,8 +38,8 @@ ShiftlockCursor.Size = UDim2.new(0.03, 0, 0.03, 0)
 ShiftlockCursor.Position = UDim2.new(0.2, 0, 0.2, 0)
 ShiftlockCursor.AnchorPoint = Vector2.new(0.2, 0.2)
 ShiftlockCursor.SizeConstraint = Enum.SizeConstraint.RelativeXX
-ShiftlockCursor.BackgroundTransparency = 1
-ShiftlockCursor.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ShiftlockCursor.BackgroundTransparency = 0.5
+ShiftlockCursor.BackgroundColor3 = Color3.fromRGB(250, 0, 0)
 ShiftlockCursor.Visible = false
  
 ShiftLockButton.MouseButton1Click:Connect(
