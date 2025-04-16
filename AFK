@@ -1,13 +1,15 @@
+-- ANTI AFK made by Muscle_legends2021 [Gio]
+
 local VirtualUser = game:GetService('VirtualUser')
- 
+
 game:GetService('Players').LocalPlayer.Idled:Connect(function()
     VirtualUser:CaptureController()
     VirtualUser:ClickButton2(Vector2.new())
 end)
- 
+
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "AFK",
-    Text = "Made by Gio",
+    Text = "Thanks",
     Button1 = "☠️",
     Duration = 5
-}
+})
