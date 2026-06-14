@@ -120,7 +120,7 @@ godBtn.MouseButton1Click:Connect(function()
 end)
 
 --// TextBox untuk Key
-local keyBox = Instance.new("BY key", frame)
+local keyBox = Instance.new("TextBox", frame)
 keyBox.Size = UDim2.new(0, 200, 0, 30)
 keyBox.Position = UDim2.new(0, 15, 0, 80)
 keyBox.PlaceholderText = "Enter Key"
